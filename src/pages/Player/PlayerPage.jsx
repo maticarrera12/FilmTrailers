@@ -1,7 +1,7 @@
 import './Player.css'
-import back_arrow_icon from '../../assets/back_arrow_icon.png'
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 
 const PlayerPage = () => {
 
@@ -34,7 +34,7 @@ const PlayerPage = () => {
     
   return (
     <div className='player'>
-      <img src={back_arrow_icon} alt="" onClick={()=>{navigate(-2)}}/>
+      <ArrowCircleLeftOutlinedIcon  sx={{ fontSize: 40 }} className='arrow' alt="" onClick={()=>{navigate(-2)}}/>
       <iframe width='90%' height='90%' src={`https://www.youtube.com/embed/${apiData.key}`} title='trailer' frameBorder='0' allowFullScreen>
       </iframe>
       <div className="player-info">

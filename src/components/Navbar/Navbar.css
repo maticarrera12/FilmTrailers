@@ -37,7 +37,6 @@
 }
 
 .navbar-right .icons{
-    width: 20px;
     cursor: pointer;
 }
 
@@ -76,9 +75,11 @@
     display: block;
 }
 
-.nav-dark{
-    background: #141414;
+.nav-dark {
+    background: linear-gradient(to bottom, #141414 5%, #141414 70%, rgba(20, 20, 20, 0) 100%);
 }
+
+
 
 
 

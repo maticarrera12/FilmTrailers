@@ -2,8 +2,8 @@ import NavbarComponent from '../../components/Navbar/NavbarComponent'
 import './Home.css'
 import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
-import play_icon from '../../assets/play_icon.png'
-import info_icon from '../../assets/info_icon.png'
+import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import TitleCardsComponent from '../../components/TitleCards/TitleCardsComponent'
 import Footer from '../../components/Footer/Footer'
 
@@ -17,8 +17,8 @@ const HomePage = () => {
           <img src={hero_title} alt="" className='caption-img' />
           <p>Discovering his ties to a secret ancient order, a young man living in modern Instanbul embarks on a quest to save the city from an inmortal enemy.</p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt="" />Ver</button> 
-            <button className='btn dark-btn'><img src={info_icon} alt="" />Mas Informacion</button> 
+            <button className='btn'><PlayArrowIcon alt="" />Ver</button> 
+            <button className='btn dark-btn'><ErrorOutlineIcon sx={{ transform: 'rotate(180deg)'}} alt="" />Mas Informacion</button> 
           </div>
           <TitleCardsComponent/>
         </div>

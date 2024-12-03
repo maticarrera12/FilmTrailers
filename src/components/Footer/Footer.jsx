@@ -1,17 +1,13 @@
 import './Footer.css'
-import youtube_icon from '../../assets/youtube_icon.png'
-import twitter_icon from '../../assets/twitter_icon.png'
-import instagram_icon from '../../assets/instagram_icon.png'
-import facebook_icon from '../../assets/facebook_icon.png'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-icons">
-        <img src={facebook_icon} alt="" />
-        <img src={instagram_icon} alt="" />
-        <img src={twitter_icon} alt="" />
-        <img src={youtube_icon} alt="" />
+        <a href=""><GitHubIcon sx={{fontSize:40, color: 'inherit'}}/></a>
+        <a href=""><LinkedInIcon sx={{fontSize:40}}/></a>
       </div>
       <ul>
         <li>Descripcion del Audio</li>

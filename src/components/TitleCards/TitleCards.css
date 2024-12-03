@@ -3,6 +3,8 @@
 }
 .titlecards h2{
     margin-bottom: 8px;
+    border-left: 6px solid #E50914;
+    padding-left: 8px;
 }
 
 .card-list{
