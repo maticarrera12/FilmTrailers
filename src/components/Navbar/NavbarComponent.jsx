@@ -1,5 +1,5 @@
 import './Navbar.css';
-import logo from '../../assets/logo.png';
+
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
@@ -25,7 +25,6 @@ const NavbarComponent = () => {
   return (
     <div ref={navRef} className='navbar'>
       <div className="navbar-left">
-        <img src={logo} alt="Logo" />
         <ul>
           <li>Home</li>
           <li>TV</li>
