@@ -25,7 +25,7 @@ const HomePage = () => {
       </div>
       <div className="more-cards">
         <TitleCardsComponent title={"Peliculas BlockBuster"} category={"top_rated"}/>
-        <TitleCardsComponent title={"Solo en Netflix"} category={"popular"}/>
+        <TitleCardsComponent title={"Solo Aqui"} category={"popular"}/>
         <TitleCardsComponent title={"Proximamente"} category={"upcoming"}/>
       </div>
       <Footer/>
